@@ -5,5 +5,18 @@
     <link>https://updates.bufferpad.app/appcast.xml</link>
     <description>BufferPad updates</description>
     <language>en</language>
+    <item>
+      <title>Version 0.3</title>
+      <pubDate>Wed, 25 Nov 2026 17:09:13 GMT</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[BufferPad now keeps itself up to date.
+
+- **Check for Updates…** in the BufferPad menu looks for a new version now.
+- BufferPad also checks once a day and asks before installing. You can turn that off in Settings › General › App.
+- If an agent is in the middle of a prompt, BufferPad waits for it to finish before restarting to update.]]></description>
+      <enclosure url="https://github.com/HendrikK/bufferpad-releases/releases/download/v0.3/BufferPad-0.3.dmg" length="30052961" type="application/octet-stream" sparkle:edSignature="wQJhjkAeS+zxca8qyfVWynC2E7wTdrXmTJ4xPCu5ZwI5KhpsaoV+xL4pv0770yYICRDZngHZ/CydkZoQMtf+BQ=="/>
+    </item>
   </channel>
 </rss>
